@@ -7,8 +7,8 @@ class node{
         node* right;
     node(int data){
         this->data=data;
-        this->left=NULL;
-        this->right=NULL;
+        left=NULL;
+        right=NULL;
     }
 };
 node* createTree(node* root){

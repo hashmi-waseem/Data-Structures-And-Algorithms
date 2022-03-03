@@ -6,7 +6,7 @@ class TreeNode{
         int data;
         TreeNode* right;
     TreeNode(int d){
-        data=d;
+        this->data=d;
         left=NULL;
         right=NULL;
     }
